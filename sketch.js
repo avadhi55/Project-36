@@ -46,7 +46,7 @@ function draw() {
   textSize(15);
   stroke(4);
   if(lastFed>=12){
-        text("Last Feed: " , lastFed % 12 + "PM", 350,30);
+        text("Last Feed: " + lastFed % 12 + "PM", 350,30);
   }else if(lastFed==0){
         text("Last Feed: 12 AM", 350,30);
   }else{
